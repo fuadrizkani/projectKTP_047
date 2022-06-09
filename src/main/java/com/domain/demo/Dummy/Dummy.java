@@ -89,7 +89,7 @@ public class Dummy implements Serializable {
 
     @Override
     public String toString() {
-        return "com.domain.demo.Dummy[ id=" + id + " ]";
+        return "com.domain.demo.Dummy.Dummy[ id=" + id + " ]";
     }
     
 }

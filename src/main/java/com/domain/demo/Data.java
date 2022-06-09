@@ -1,4 +1,4 @@
-package com.domain.demo.exceptions;
+package com.domain.demo;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -208,7 +208,7 @@ public class Data implements Serializable {
 
     @Override
     public String toString() {
-        return "com.domain.demo.exceptions.Data[ id=" + id + " ]";
+        return "com.domain.demo.Data[ id=" + id + " ]";
     }
     
 }

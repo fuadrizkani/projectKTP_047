@@ -19,7 +19,7 @@ public class DummyJpaController implements Serializable {
     public DummyJpaController(EntityManagerFactory emf) {
         this.emf = emf;
     }
-    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("unu.jogja_demo_jar_0.0.1-SNAPSHOTPU");
+    private EntityManagerFactory emf = Persistence.createEntityManagerFactory("com.domain_demo_jar_0.0.1-SNAPSHOTPU");
 
     public EntityManager getEntityManager() {
         return emf.createEntityManager();
